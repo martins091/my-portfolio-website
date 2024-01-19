@@ -62,8 +62,8 @@ const Banner = () => {
               initial="hidden"
               whileInView={'show'}
               viewport={{once:false, amount:0.7}}
-              className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
+              className='flex max-w-max items-center mb-12 mx-auto lg:mx-0'>
+              <div className='flex text-[20px] gap-x-4 max-w-max mx-auto lg:mx-0'>
               <SocialLink href="https://www.linkedin.com/in/agbo-martins-ejiofor-a9b32b26a">
                 <FaLinkedin />
               </SocialLink>
@@ -74,10 +74,10 @@ const Banner = () => {
                 <FaInstagram />
               </SocialLink>
             </div>
-            <a href="https://docs.google.com/document/d/1b2Fg50ipp6P2mvvfFxQpi1XV7nKkuuok-jAtOaRKHtw/edit?usp=sharing" 
+            <a href="https://drive.google.com/file/d/1e9PgsUlJaRXY4zxLt5D-OP8rxPJuZUTP/view?usp=sharing" 
               className='font-bold text-[18px] bg-white text-black rounded-full px-5
               hover:text-white hover:bg-black' target="_blank">
-              <div className="flex items-center">
+              <div className="flex items-center flex-wrap">
                 <p>Resume</p>
                 <FaDownload />
                 </div>
@@ -92,7 +92,7 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{once:false, amount:0.7}}
           className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
-            <img className='h-[350px] rounded-full' src={Image} alt="image" />
+            <img className='h-[350px]' src={Image} alt="image" width="320" height="350" loading="lazy" />
           </motion.div>
         </div>
       </div>

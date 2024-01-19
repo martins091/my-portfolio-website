@@ -41,7 +41,7 @@ const About = () => {
             I have been working as a freelancer for over a year, and it helped me to gain strong knowledge on front-end web development
             </p>
             {/* stars */}
-            <div className='flex gap-x-4 lg:gap-x-10 mb-6 flex-wrap'>
+            <div className='flex lg:gap-x-10 mb-6'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient 
                 mb-2'>
@@ -59,7 +59,7 @@ const About = () => {
                 mb-2'>
                   {
                   inView ?
-                  <CountUp start={0} end={8} duration={5} /> : null}
+                  <CountUp start={0} end={50} duration={5} /> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Projects
@@ -71,7 +71,7 @@ const About = () => {
                 mb-2'>
                   {
                   inView ?
-                  <CountUp start={0} end={6} duration={5} /> : null}
+                  <CountUp start={0} end={20} duration={5} /> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Satisfied

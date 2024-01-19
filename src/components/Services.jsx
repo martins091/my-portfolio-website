@@ -4,11 +4,10 @@ import Image from '../assets/service.jpg'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 
-
 const services = [
   {
     name: 'Web Development',
-    description: 'HTML, CSS, JavaScript, NodeJS, ReactJS, NextJS, Tailwind, Git and Bootstrap',
+    description: 'HTML, CSS, JavaScript, NodeJS, ReactJS, NextJS, Tailwind, Git',
     link: 'learn more',
   },
   {
@@ -18,7 +17,7 @@ const services = [
   },
   {
     name: 'Content Creator',
-    description: 'I have been creating contents in different social media platforms which helped me to have enough audience.',
+    description: 'I have been creating contents in different social media platforms.',
     link: 'learn more',
   }
 ]

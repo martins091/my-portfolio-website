@@ -4,7 +4,7 @@ import { About, Banner, Contact, Header, Nav, Services, Works } from './componen
 
 const App = () => {
   return (
-    <div className='text-[white] '>
+    <div className='text-[white] overflow-hidden'>
     <Header />
     <Banner />
     <Nav />
