@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div className='section' id='about' ref={ref}>
       <div className='container mx-auto'>
-        <div className='flex flex-col gap-y-6 lg:flex-row lg:items-center'>
+        <div className='flex flex-col gap-y-6 lg:flex-row lg:items-center justify-between'>
           {/* img */}
           <motion.div 
           variants={
@@ -22,7 +22,7 @@ const About = () => {
             whileInView={'show'}
             viewport={{once:false, amount:0.3}}
           className=' mix-blend-lighten lg:pr-[20px]'>
-            <img className='h-[460px] w-[360px]' src={Image}  alt='image' />
+            <img className='h-[660px] w-[100%]' src={Image}  alt='image' />
           </motion.div>
           {/* text */}
           <motion.div
@@ -34,11 +34,10 @@ const About = () => {
           className='flex-1 text-center lg:text-left'>
             <h1 className='text-[40px] font-bold text-gradient leading-[0.8] lg:text-[60px] mb-[8px]'>About me</h1>
             <h2 className='mb-4 text-[25px] lg:text-[35px] font-secondary font-semibold 
-                uppercase leading-[1] text-gradient'>I'm a Front-end Web Developer with Over 
-              1 year of experience.
+                uppercase leading-[1] text-gradient'>Full-Stack Web Developer // Specializing <br /> in the MERN stack // Proficient in WordPress
             </h2>
             <p className=' max-w-lg '>
-            I have been working as a freelancer for over a year, and it helped me to gain strong knowledge on front-end web development
+            I have been working as a freelancer for over 3 year, and it helped me to gain strong knowledge in web development
             </p>
             {/* stars */}
             <div className='flex lg:gap-x-10 mb-6'>
@@ -47,7 +46,7 @@ const About = () => {
                 mb-2'>
                   {
                   inView ?
-                  <CountUp start={0} end={2} duration={5} /> : null}
+                  <CountUp start={0} end={10} duration={5} /> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Years of
@@ -59,7 +58,7 @@ const About = () => {
                 mb-2'>
                   {
                   inView ?
-                  <CountUp start={0} end={50} duration={5} /> : null}
+                  <CountUp start={0} end={100} duration={5} /> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Projects
@@ -71,7 +70,7 @@ const About = () => {
                 mb-2'>
                   {
                   inView ?
-                  <CountUp start={0} end={20} duration={5} /> : null}
+                  <CountUp start={0} end={100} duration={5} /> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Satisfied

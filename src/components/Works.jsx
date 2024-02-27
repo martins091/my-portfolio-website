@@ -4,9 +4,9 @@ import {fadeIn} from '../variants'
 
 
 // img
-import Img1 from '../assets/portfolio-img1.jpeg';
-import Img2 from '../assets/portfolio-img2.jpeg';
-import Img3 from '../assets/portfolio-img3.jpeg';
+import Img1 from '../assets/martins-blog.jpeg';
+import Img2 from '../assets/martins-shop.jpeg';
+import Img3 from '../assets/martins.b.jpeg';
 
 const Works = () => {
   return (
@@ -22,7 +22,7 @@ const Works = () => {
               whileInView={'show'}
               viewport={{once:false, amount:0.3}}
             >
-              <h2 className='leading-tight lg:mt-24 text-xl uppercase text-gradient font-medium mb-2 tracking-wide'>
+              <h2 className='leading-tight lg:mt-24 text-xl font-bold uppercase text-gradient mb-2 tracking-wide'>
                 My Latest Works
               </h2>
               <p className='max-w-sm mb-16'>
@@ -55,11 +55,11 @@ const Works = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient text-[25px]'>Web Development</span>
+                <span className='text-gradient text-[25px]'>Full-Stack Web Project</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Movie App</span>
+                <a className='text-3xl text-white hover:underline hover:text-gray-400'  href='https://mern-blog-rja7.onrender.com/' target='_blank' >Blog Web app</a>
               </div>
             </motion.div>
           </div>
@@ -86,7 +86,7 @@ const Works = () => {
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Bank Website</span>
+                <a className='text-3xl text-white hover:underline hover:text-gray-400'  href='https://ecommerce-website-one-roan.vercel.app' target='_blank' >Ecommerce website</a>
               </div>
             </motion.div>
             <motion.div 
@@ -106,11 +106,11 @@ const Works = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient text-[25px]'>Web Development</span>
+                <span className='text-gradient text-[25px]'>Full-Stack Web Development</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>GPT3 Website</span>
+                <a className='text-3xl text-white hover:underline hover:text-gray-400'  href='https://mern-blog-rja7.onrender.com/' target='_blank' >Blog admin Dashboard</a>
               </div>
             </motion.div>
           </div>

@@ -1,32 +1,32 @@
 import React from 'react';
 import { BsArrowUpRight } from 'react-icons/bs';
-import Image from '../assets/service.jpg'
+import Image from '../assets/laptop.jpg'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 
 const services = [
   {
-    name: 'Web Development',
-    description: 'HTML, CSS, JavaScript, NodeJS, ReactJS, NextJS, Tailwind, Git',
+    name: 'Full-Stack Web Development',
+    description: 'HTML, CSS, JavaScript, NodeJS, ReactJS, NextJS, Tailwind, Git, Node.js, Express.js', 
     link: 'learn more',
   },
   {
-    name: 'Graphic Design',
-    description: 'Figma, Adobe Photoshop, CorelDraw and Canva.',
+    name: 'MERN-Stack Web Developer',
+    description: 'specializing in Mern-stack web development',
     link: 'learn more',
   },
   {
-    name: 'Content Creator',
-    description: 'I have been creating contents in different social media platforms.',
+    name: 'Wordpress Developer',
+    description: 'I am good in developing website with wordpress ',
     link: 'learn more',
   }
 ]
 
 const Services = () => {
   return (
-    <section className='section bg-cover bg-center bg-no-repeat ' id='services' style={{ backgroundImage: `url(${Image})` }}>
+    <section className='section bg-cover bg-center bg-no-repeat ' id='services' >
       <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row'>
+        <div className='flex flex-col lg:flex-row justify-center gap-20'>
         {/* text */}
         <motion.div 
         variants={
@@ -39,7 +39,7 @@ const Services = () => {
             My Services.</h2>
           <h3 className='text-[25px] max-w-[455px] lg:text-[35px] font-secondary
             leading-[1] '>
-          I am a Freelance Front-end Web Developer with over 1 year of
+          I am a Freelance Front-end Web Developer with over 3 year of
           experience.
           </h3>
           <div className='mt-[20px]'>
@@ -64,13 +64,13 @@ const Services = () => {
             flex' key={index}>
               <div className='max-w-[476px]'>
                 <h4 className='text-[30px] tracking-wider
-                font-primary font-semibold mb-6 text-black'>{name}</h4>
+                font-primary font-semibold mb-6 text-white'>{name}</h4>
                 <p className='font-secondary leading-tight'>
                   {description}
                 </p>
               </div>
               <div className='flex flex-col flex-1 items-end'>
-                <a href="#" className='bg-red-500 hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded-full
+                <a href="#" className='bg-red-500 hover:bg-black hover:text-white text-white font-bold py-2 px-4 rounded-full
                 flex justify-center items-center'>
                   <BsArrowUpRight />
                   </a>

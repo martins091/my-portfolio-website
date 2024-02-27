@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <section className='min-h-[60vh] lg:min-h-[78vh] flex lg:items-center'>
       <div className='container mx-auto'>
-        <div className='flex flex-col gap-y-8 lg:flex-row lg:center lg:gap-x-12'>
+        <div className='flex flex-col gap-y-8 lg:flex-row lg:center justify-center'>
           {/* text */}
           <motion.div 
           variants={
@@ -44,11 +44,11 @@ const Banner = () => {
               <span className='text-gradient'>A</span>
               <TypeAnimation
                 sequence={[
-                  'Web Developer',
+                  'Full-Stack Web Developer',
                   2000,
-                  'Graphic Designer',
+                  'MERN-Stack Web Developer',
                   2000,
-                  'Content Creator',
+                  'WordPress Developer',
                   2000,
                 ]}
                 speed={50}
