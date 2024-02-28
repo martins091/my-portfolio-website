@@ -74,7 +74,7 @@ const Banner = () => {
                 <FaInstagram />
               </SocialLink>
             </div>
-            <a href="https://drive.google.com/file/d/1VWeN1RRVrNbvUeNe_Sq0KQff-chaR66V/view?usp=sharing" 
+            <a href="https://drive.google.com/file/d/1otMw5u1KbeZouYwqCD3kO-LH2C_UbPqr/view?usp=sharing" 
               className='font-bold text-[18px] bg-white text-black rounded-full px-5
               hover:text-white hover:bg-black' target="_blank">
               <div className="flex items-center flex-wrap">
