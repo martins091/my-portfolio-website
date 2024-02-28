@@ -35,9 +35,9 @@ const Services = () => {
           whileInView={'show'}
           viewport={{once:false, amount:0.3}}
         >
-          <h2 className='text-[40px] font-bold text-gradient  lg:text-[60px] leading-[1]'>
+          <h2 className='text-[20px] font-bold text-gradient  lg:text-[60px] leading-[1]'>
             My Services.</h2>
-          <h3 className='text-[25px] max-w-[455px] lg:text-[35px] font-secondary
+          <h3 className='text-[20px] max-w-[455px] lg:text-[35px] font-secondary
             leading-[1] '>
           I am a Freelance Front-end Web Developer with over 3 year of
           experience.
@@ -60,10 +60,10 @@ const Services = () => {
             // destructure service
             const { name, description, link } = service;
             return (
-            <div className='border-b border-white/30 h-[146px] mb-[38px] 
+            <div className=' h-[146px] mb-[38px] 
             flex' key={index}>
               <div className='max-w-[476px]'>
-                <h4 className='text-[30px] tracking-wider
+                <h4 className='text-[20px] tracking-wider lg:text-[30px]
                 font-primary font-semibold mb-6 text-white'>{name}</h4>
                 <p className='font-secondary leading-tight'>
                   {description}

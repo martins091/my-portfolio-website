@@ -22,7 +22,7 @@ const About = () => {
             whileInView={'show'}
             viewport={{once:false, amount:0.3}}
           className=' mix-blend-lighten lg:pr-[20px]'>
-            <img className='h-[660px] w-[100%]' src={Image}  alt='image' />
+            <img className='h-[300px] w-[80%] lg:w-[100%] lg:h-[660px]'  src={Image}  alt='image' />
           </motion.div>
           {/* text */}
           <motion.div
