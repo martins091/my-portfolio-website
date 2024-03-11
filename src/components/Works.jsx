@@ -4,9 +4,9 @@ import {fadeIn} from '../variants'
 
 
 // img
-import Img1 from '../assets/martins-blog.jpeg';
-import Img2 from '../assets/martins-shop.jpeg';
-import Img3 from '../assets/martins.b.jpeg';
+import Img1 from '../assets/realestate.jpeg';
+import Img2 from '../assets/martins.b.jpeg';
+import Img3 from '../assets/martins-shop.jpeg';
 
 const Works = () => {
   return (
@@ -59,7 +59,7 @@ const Works = () => {
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <a className='text-3xl text-white hover:underline hover:text-gray-400'  href='https://mern-blog-rja7.onrender.com/' target='_blank' >Blog Web app</a>
+                <a className='text-3xl text-white hover:underline hover:text-gray-400'  href='https://realestate-app-ymhb.onrender.com/search?searchTerm=' target='_blank' >Real Estate web app</a>
               </div>
             </motion.div>
           </div>
@@ -82,11 +82,11 @@ const Works = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient text-[25px]'>Web Development</span>
+                <span className='text-gradient text-[25px]'>Full-Stack Web App</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <a className='text-3xl text-white hover:underline hover:text-gray-400'  href='https://ecommerce-website-one-roan.vercel.app' target='_blank' >Ecommerce website</a>
+                <a className='text-3xl text-white hover:underline hover:text-gray-400'  href='https://mern-blog-rja7.onrender.com/dashboard?tab=dash' target='_blank' >Blog Admin Dashboard</a>
               </div>
             </motion.div>
             <motion.div 
@@ -106,11 +106,11 @@ const Works = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient text-[25px]'>Full-Stack Web Development</span>
+                <span className='text-gradient text-[25px]'>Web Development</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <a className='text-3xl text-white hover:underline hover:text-gray-400'  href='https://mern-blog-rja7.onrender.com/' target='_blank' >Blog admin Dashboard</a>
+                <a className='text-3xl text-white hover:underline hover:text-gray-400'  href='https://ecommerce-website-one-roan.vercel.app/' target='_blank' >Ecommerce web app</a>
               </div>
             </motion.div>
           </div>
